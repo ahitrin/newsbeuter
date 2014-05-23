@@ -1,3 +1,3 @@
 #!/bin/bash
 
-make && make test && cd test && ./test
+make all test test-rss && cd test && ./test && ./test-rss
