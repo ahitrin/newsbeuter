@@ -1,3 +1,5 @@
 #!/bin/bash
 
-make all test test-rss && cd test && ./test && ./test-rss
+make all test test-rss &&
+    cd test &&
+    ./test && ./test-rss && ./run-uitests-headless.sh
